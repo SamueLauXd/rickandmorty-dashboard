@@ -10,7 +10,6 @@ export function useCharacters() {
         .then(data => {
             setCharacters(data.results)
             setInfo(data.info)
-            console.log(data.info);
         })
     }, [])
 
